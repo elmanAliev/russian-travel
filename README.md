@@ -8,3 +8,6 @@
 
 ## Инструкция по использованию проекта
 В проекте используется HTML и CSS. Версия языка - "RU"
+
+
+https://elmanaliev.github.io/russian-travel/
