@@ -1,14 +1,13 @@
 .photo-grid {
     max-width: calc(100% - 96px);
     margin: 0 auto;
-    padding-top: 136px;
+    padding-top: 92px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 16px;
 }
 @media screen and (max-width: 1024px) {
     .photo-grid {
-        padding-top: 92px;
         grid-template-columns: repeat(3, 1fr);
         grid-gap: 14px;
     }
@@ -18,7 +17,7 @@
         max-width: calc(100% - 48px);
         padding-top: 88px;
         grid-template-columns: repeat(2, 1fr);
-        grid-gap: 16px;
+        grid-gap: 16px;  /*  По макету отступы между картинками меняются следующим образом: на 1280 - 16px, на 1024 - 14px, а на 768 - снова 16px */
     }
 }
 @media screen and (max-width: 425px) {
