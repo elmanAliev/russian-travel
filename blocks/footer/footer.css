@@ -8,6 +8,10 @@
 @media screen and (max-width: 768px) {
     .footer {
         max-width: calc(100% - 48px);
+    }
+}
+@media screen and (max-width: 668px) {
+    .footer {
         flex-direction: column;
     }
 }

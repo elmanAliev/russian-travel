@@ -9,6 +9,11 @@
     .footer__copyright {
         font-size: 14px;
         line-height: 1;
+        
+    }
+}
+@media screen and (max-width: 668px) {
+    .footer__copyright {
         margin: 16px 0 0;
     }
 }
