@@ -6,13 +6,13 @@
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 16px;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
     .photo-grid {
         grid-template-columns: repeat(3, 1fr);
         grid-gap: 14px;
     }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
     .photo-grid {
         max-width: calc(100% - 48px);
         padding-top: 88px;
@@ -20,7 +20,7 @@
         grid-gap: 16px;  /*  По макету отступы между картинками меняются следующим образом: на 1280 - 16px, на 1024 - 14px, а на 768 - снова 16px */
     }
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 767px) {
     .photo-grid {
         max-width: calc(100% - 32px);
         display: flex;

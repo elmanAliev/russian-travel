@@ -5,18 +5,14 @@
     justify-content: space-between;
     padding-bottom: 24px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
     .footer {
         max-width: calc(100% - 48px);
     }
 }
-@media screen and (max-width: 668px) {
+@media screen and (max-width: 767px) {
     .footer {
         flex-direction: column;
-    }
-}
-@media screen and (max-width: 425px) {
-    .footer {
         max-width: calc(100% - 32px);
     }
 }
